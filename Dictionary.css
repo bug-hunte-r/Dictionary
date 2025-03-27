@@ -1,0 +1,133 @@
+body {
+
+    background-color: blueviolet;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.3s;
+}
+
+.input {
+
+    border: none;
+    border-bottom: solid 2px white;
+    font-size: 27px;
+    font-family: 'montserrat', sans-serif;
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    letter-spacing: 1px;
+    width: 250px;
+    transition: 0.7s ease-out;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.input:focus {
+    outline: none;
+    width: 300px;
+    
+}
+::placeholder {
+    color: white;
+}
+
+.btn {
+
+    font-family: 'tahoma';
+    font-weight: 900;
+    border: solid 2px white;
+    background-color: blueviolet;
+    font-size: 20px;
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    border-radius: 0px 20px 0px 20px;
+    background-color: white;
+    color: blueviolet;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.modal {
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 275px;
+    margin-top: -550px;
+    position: relative;
+    padding: 25px;
+    display: none;
+}
+
+.name {
+    color: blueviolet;
+    font-family: tahoma;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.info {
+    color: blueviolet;
+    font-family: tahoma;
+    font-size: 25px;
+}
+
+.audioIcon {
+    width: 50px;
+    cursor: pointer;
+}
+
+.x {
+
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-left: 630px;
+    margin-top: -10px;
+}
+
+.audio {
+
+    display: none;
+}
+
+.title {
+    color: white;
+    font-family: tahoma;
+    font-weight: 900;
+    margin-top: -170px;
+    margin-left: 50px;
+    position: fixed;
+    font-size: 40px;
+}
+
+.section{
+
+    transition: 0.5s;
+}
+
+.circle {
+
+    width: 350px;
+    height: 350px;
+    border-radius: 10000px;
+    background-color: white;
+    margin-left: -115px;
+    margin-top: 80px;
+}
+
+.circle2 {
+
+    width: 350px;
+    height: 350px;
+    border-radius: 10000px;
+    background-color: white;
+    margin-left: 1020px;
+    margin-top: -350px;
+}
