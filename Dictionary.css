@@ -27,7 +27,7 @@ body {
     
 }
 ::placeholder {
-    color: white;
+    color: rgb(224, 224, 224);
 }
 
 .btn {
